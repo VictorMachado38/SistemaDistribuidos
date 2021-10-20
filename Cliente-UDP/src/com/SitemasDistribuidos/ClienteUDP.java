@@ -26,6 +26,11 @@ public class ClienteUDP {
 
             socketCliente.send(pacote);
             System.out.println("Dados enviados para o servidor.....");
+
+
+            //Rescevendo a respota
+            byte[] dadosRespota = new byte[256];
+            DatagramPacket pacoteRespota = new DatagramPacket(dadosRespota, dadosRespota.length,ip, 9000);
         }
         catch (Exception e){
             System.out.println("Mensagem de erro, ao enviador dados: " +  e.getMessage());

@@ -3,6 +3,7 @@ package com.SitemasDistribuidos;
 import java.io.*;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
+import java.net.InetAddress;
 import java.net.SocketException;
 
 public class ServidorUDP {
@@ -37,6 +38,24 @@ public class ServidorUDP {
             pessoa.setIMC( calcularIMC(pessoa));
             System.out.println("Resposta enviada");
 
+            // Devolvendo o obejeto calculado
+            InetAddress ip = pacoteRecebidos.getAddress();
+            System.out.println("O IP dento do InetAdderess:"+ip );
+            int port = pacoteRecebidos.getPort();
+            System.out.println("A port que está no int: "+port);
+
+            // Conversão do objeto em array de bytes e enviando resposta para o cliente.
+            byte[] dadosRespostaDoServidor = new byte[256];
+            ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+            ObjectOutputStream objStram = new ObjectOutputStream(outputStream);
+            objStram.writeObject(pessoa);
+            dadosRespostaDoServidor = outputStream.toByteArray();
+            DatagramPacket pacoteRespotaDoServidor = new DatagramPacket(dadosRespostaDoServidor, dadosRespostaDoServidor.length,ip, 9000);
+
+            serverSocket.send(pacoteRespotaDoServidor);
+            System.out.println("Respota enviada....");
+
+
         } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
             System.out.println("O erro que deu:" + e.getMessage());
@@ -46,8 +65,9 @@ public class ServidorUDP {
 
     }
 
+
     public static double calcularIMC(Pessoa pessoa){
-        double IMC = 0;
-        return IMC;
+        pessoa.setIMC(pessoa.getPeso() / (pessoa.getAltura() * pessoa.getAltura()));
+        return pessoa.getIMC();
     }
 }
