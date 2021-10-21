@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3be30073-e1bd-451a-aa3c-b53454f7b836" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Cliente-UDP/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cliente-UDP/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cliente-UDP/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cliente-UDP/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cliente-UDP/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cliente-UDP/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cliente-UDP/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cliente-UDP/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cliente-UDP/Cliente-UDP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cliente-UDP/out/production/Cliente-UDP/com/SitemasDistribuidos/ClienteUDP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cliente-UDP/out/production/Cliente-UDP/com/SitemasDistribuidos/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cliente-UDP/out/production/Cliente-UDP/com/SitemasDistribuidos/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cliente-UDP/src/com/SitemasDistribuidos/ClienteUDP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cliente-UDP/src/com/SitemasDistribuidos/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cliente-UDP/src/com/SitemasDistribuidos/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClienteTCP/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClienteTCP/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClienteTCP/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClienteTCP/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClienteTCP/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClienteTCP/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClienteTCP/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClienteTCP/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClienteTCP/ClienteTCP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClienteTCP/out/production/ClienteTCP/com/SitemasDistribuidos/ClienteTCP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClienteTCP/out/production/ClienteTCP/com/SitemasDistribuidos/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClienteTCP/out/production/ClienteTCP/com/SitemasDistribuidos/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClienteTCP/src/com/SitemasDistribuidos/ClienteTCP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClienteTCP/src/com/SitemasDistribuidos/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClienteTCP/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClienteTCP/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClienteTCP/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClienteTCP/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClienteTCP/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClienteTCP/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClienteTCP/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClienteTCP/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClienteTCP/ClienteTCP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClienteTCP/out/production/ClienteTCP/com/SitemasDistribuidos/ClienteTCP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClienteTCP/out/production/ClienteTCP/com/SitemasDistribuidos/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClienteTCP/out/production/ClienteTCP/com/SitemasDistribuidos/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClienteTCP/src/com/SitemasDistribuidos/ClienteTCP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClienteTCP/src/com/SitemasDistribuidos/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClienteTCP/src/com/SitemasDistribuidos/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServidorUDP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Servidor/com/SitemasDistribuidos/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Servidor/com/SitemasDistribuidos/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Servidor/com/SitemasDistribuidos/ServidorUDP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/SitemasDistribuidos/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/SitemasDistribuidos/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/SitemasDistribuidos/ServidorUDP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServidorTCP/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServidorTCP/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServidorTCP/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServidorTCP/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServidorTCP/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServidorTCP/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServidorTCP/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServidorTCP/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServidorTCP/ServidorTCP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServidorTCP/out/production/ServidorTCP/com/SitemasDistribuidos/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServidorTCP/out/production/ServidorTCP/com/SitemasDistribuidos/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServidorTCP/out/production/ServidorTCP/com/SitemasDistribuidos/ServidorTCP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServidorTCP/src/com/SitemasDistribuidos/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServidorTCP/src/com/SitemasDistribuidos/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServidorTCP/src/com/SitemasDistribuidos/ServidorTCP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servidor/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servidor/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servidor/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servidor/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servidor/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servidor/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servidor/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servidor/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servidor/ServidorUDP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servidor/out/production/Servidor/com/SitemasDistribuidos/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servidor/out/production/Servidor/com/SitemasDistribuidos/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servidor/out/production/Servidor/com/SitemasDistribuidos/ServidorUDP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servidor/src/com/SitemasDistribuidos/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servidor/src/com/SitemasDistribuidos/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servidor/src/com/SitemasDistribuidos/ServidorUDP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServidorTCP/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServidorTCP/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServidorTCP/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServidorTCP/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServidorTCP/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServidorTCP/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServidorTCP/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServidorTCP/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServidorTCP/ServidorTCP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServidorTCP/src/com/SitemasDistribuidos/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServidorTCP/src/com/SitemasDistribuidos/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServidorTCP/src/com/SitemasDistribuidos/ServidorTCP.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1zj1xEURo25tZxlpavf49UVchMX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Servidor" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ServidorUDP">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.SitemasDistribuidos.Main" />
+      <module name="ServidorUDP" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServidorUDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.SitemasDistribuidos.ServidorUDP" />
+      <module name="ServidorUDP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.SitemasDistribuidos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ServidorUDP" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ServidorUDP" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3be30073-e1bd-451a-aa3c-b53454f7b836" name="Changes" comment="" />
+      <created>1634646931078</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634646931078</updated>
+      <workItem from="1634646932359" duration="6361000" />
+      <workItem from="1634656936621" duration="91000" />
+      <workItem from="1634662047526" duration="122000" />
+      <workItem from="1634766658223" duration="2227000" />
+      <workItem from="1634774290154" duration="48000" />
+      <workItem from="1634774354586" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassNotFoundException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Servidor$ServidorUDP.ic" NAME="ServidorUDP Coverage Results" MODIFIED="1634656213330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.Servidor.*</FILTER>
+    </SUITE>
+  </component>
+</project>

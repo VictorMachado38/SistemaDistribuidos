@@ -36,13 +36,14 @@ public class ServidorUDP {
             ObjectInputStream objectInputStream = new ObjectInputStream(inputStream);
             Pessoa pessoa = (Pessoa) objectInputStream.readObject();
             pessoa.setIMC( calcularIMC(pessoa));
-            System.out.println("Resposta enviada");
+            System.out.println("IMC calculado");
 
             // Devolvendo o obejeto calculado
+            System.out.println("Resposta ira ser preparada");
             InetAddress ip = pacoteRecebidos.getAddress();
             System.out.println("O IP dento do InetAdderess:"+ip );
             int port = pacoteRecebidos.getPort();
-            System.out.println("A port que está no int: "+port);
+            System.out.println("A port que está no int: "+ port);
 
             // Conversão do objeto em array de bytes e enviando resposta para o cliente.
             byte[] dadosRespostaDoServidor = new byte[256];
@@ -50,10 +51,11 @@ public class ServidorUDP {
             ObjectOutputStream objStram = new ObjectOutputStream(outputStream);
             objStram.writeObject(pessoa);
             dadosRespostaDoServidor = outputStream.toByteArray();
-            DatagramPacket pacoteRespotaDoServidor = new DatagramPacket(dadosRespostaDoServidor, dadosRespostaDoServidor.length,ip, 9000);
+            DatagramPacket pacoteRespotaDoServidor = new DatagramPacket(dadosRespostaDoServidor, dadosRespostaDoServidor.length,ip, port);
 
             serverSocket.send(pacoteRespotaDoServidor);
             System.out.println("Respota enviada....");
+
 
 
         } catch (IOException | ClassNotFoundException e) {

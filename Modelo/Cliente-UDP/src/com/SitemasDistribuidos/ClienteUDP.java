@@ -1,6 +1,8 @@
 package com.SitemasDistribuidos;
 
+import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
+import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
@@ -8,7 +10,7 @@ import java.net.InetAddress;
 
 public class ClienteUDP {
 
-    public void enviarDados (Pessoa pessoa){
+    public Pessoa enviarDados (Pessoa pessoa){
 
         //Comunicação
         DatagramSocket socketCliente;
@@ -22,18 +24,35 @@ public class ClienteUDP {
             ObjectOutputStream objStram = new ObjectOutputStream(outputStream);
             objStram.writeObject(pessoa);
             dados = outputStream.toByteArray();
-            DatagramPacket pacote = new DatagramPacket(dados, dados.length,ip, 9000);
+            DatagramPacket pacoteRespotaDoServidor = new DatagramPacket(dados, dados.length,ip, 9000);
 
-            socketCliente.send(pacote);
+            socketCliente.send(pacoteRespotaDoServidor);
             System.out.println("Dados enviados para o servidor.....");
 
 
             //Rescevendo a respota
+
+
+
+
+
             byte[] dadosRespota = new byte[256];
-            DatagramPacket pacoteRespota = new DatagramPacket(dadosRespota, dadosRespota.length,ip, 9000);
+            DatagramPacket pacoteRespota = new DatagramPacket(dadosRespota, dadosRespota.length);
+            socketCliente.receive(pacoteRespota);
+
+            System.out.println("Pacote recebido do servidor");
+
+            //Depois que recebe a respota do servidor aqui faz a conversão
+            ByteArrayInputStream inputStream = new ByteArrayInputStream(dadosRespota);
+            ObjectInputStream objectInputStream = new ObjectInputStream(inputStream);
+            pessoa = new Pessoa();
+            pessoa = (Pessoa) objectInputStream.readObject();
+
+            return pessoa;
         }
         catch (Exception e){
             System.out.println("Mensagem de erro, ao enviador dados: " +  e.getMessage());
+            return null;
         }
     }
 }
