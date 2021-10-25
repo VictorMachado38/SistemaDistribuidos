@@ -10,7 +10,7 @@ import java.net.InetAddress;
 
 public class ClienteUDP {
 
-    public Pessoa enviarDados (Pessoa pessoa){
+    public moedaRealParaDolar enviarDadaosParaconvesao(moedaRealParaDolar moedaRealParaDolar){
 
         //Comunicação
         DatagramSocket socketCliente;
@@ -22,9 +22,9 @@ public class ClienteUDP {
             byte[] dados = new byte[256];
             ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
             ObjectOutputStream objStram = new ObjectOutputStream(outputStream);
-            objStram.writeObject(pessoa);
+            objStram.writeObject(moedaRealParaDolar);
             dados = outputStream.toByteArray();
-            DatagramPacket pacoteRespotaDoServidor = new DatagramPacket(dados, dados.length,ip, 9100);
+            DatagramPacket pacoteRespotaDoServidor = new DatagramPacket(dados, dados.length,ip, 9000);
 
             socketCliente.send(pacoteRespotaDoServidor);
             System.out.println("Dados enviados para o servidor.....");
@@ -33,10 +33,7 @@ public class ClienteUDP {
             //Rescevendo a respota
 
 
-
-
-
-            byte[] dadosRespota = new byte[256];
+                byte[] dadosRespota = new byte[256];
             DatagramPacket pacoteRespota = new DatagramPacket(dadosRespota, dadosRespota.length);
             socketCliente.receive(pacoteRespota);
 
@@ -45,14 +42,16 @@ public class ClienteUDP {
             //Depois que recebe a respota do servidor aqui faz a conversão
             ByteArrayInputStream inputStream = new ByteArrayInputStream(dadosRespota);
             ObjectInputStream objectInputStream = new ObjectInputStream(inputStream);
-            pessoa = new Pessoa();
-            pessoa = (Pessoa) objectInputStream.readObject();
+            moedaRealParaDolar = new moedaRealParaDolar();
+            moedaRealParaDolar = (moedaRealParaDolar) objectInputStream.readObject();
 
-            return pessoa;
+            return moedaRealParaDolar;
         }
         catch (Exception e){
             System.out.println("Mensagem de erro, ao enviador dados: " +  e.getMessage());
             return null;
         }
     }
+
+
 }

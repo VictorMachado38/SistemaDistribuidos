@@ -8,9 +8,9 @@ import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
 
-public class ClienteUDP {
+public class ClienteUDP1 {
 
-    public Pessoa enviarDados (Pessoa pessoa){
+    public moedaRealParaDolar enviarDados (moedaRealParaDolar pessoa){
 
         //Comunicação
         DatagramSocket socketCliente;
@@ -45,8 +45,8 @@ public class ClienteUDP {
             //Depois que recebe a respota do servidor aqui faz a conversão
             ByteArrayInputStream inputStream = new ByteArrayInputStream(dadosRespota);
             ObjectInputStream objectInputStream = new ObjectInputStream(inputStream);
-            pessoa = new Pessoa();
-            pessoa = (Pessoa) objectInputStream.readObject();
+            pessoa = new moedaRealParaDolar();
+            pessoa = (moedaRealParaDolar) objectInputStream.readObject();
 
             return pessoa;
         }

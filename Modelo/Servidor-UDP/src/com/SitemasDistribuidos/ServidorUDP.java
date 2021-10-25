@@ -12,7 +12,7 @@ public class ServidorUDP {
         // write your code here
 
         DatagramSocket  serverSocket;
-        serverSocket = new DatagramSocket(9000);
+        serverSocket = new DatagramSocket(9100);
         /*
     try{
         serverSoket = new DatagramSocket(porta);
