@@ -5,7 +5,7 @@ import java.io.Serializable;
 public class moedaRealParaDolar implements Serializable {
 
     private String nome;
-    private double valorDeReias;agor
+    private double valorDeReias;
     private double valorAtualDoDolar;
     private double valorCONVERTIDO;
 

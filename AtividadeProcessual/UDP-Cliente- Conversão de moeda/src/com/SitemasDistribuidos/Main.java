@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        moedaRealParaDolar moeda = new moedaRealParaDolar();
+         moedaRealParaDolar moeda = new moedaRealParaDolar();
         ClienteUDP clienteUDP = new ClienteUDP();
        // ClienteUDP1 ClienteUDP1 = new ClienteUDP1();
 
