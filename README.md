@@ -17,10 +17,10 @@
 </h4>
 
 ## :pencil: Sobre o projeto
-É um projeto da matéria Sistemas Distribuídos.
-Fazer um cliente // servidor, quando é feito um  " socketCliente.send(pacote); " o Servidor revebe.
-A pasta chamada "Modelo" foi como o professor fez em sala de aula.
-A pasta chamada "AtividadeProcessual" foi eu fazendo a atividade, com a mesma arquitetura do modelo.
+* É um projeto da matéria Sistemas Distribuídos.
+* Fazer um cliente // servidor, quando é feito um  " socketCliente.send(pacote); " o Servidor recebe.
+* A pasta chamada "Modelo" foi como o professor fez em sala de aula.
+* A pasta chamada "AtividadeProcessual" foi eu fazendo a atividade, com a mesma arquitetura do Modelo.
 	 
 ## 🚀 Como executar o projeto
 
