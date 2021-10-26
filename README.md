@@ -13,7 +13,7 @@
 </p>
 
 <h4 align="center"> 
-	✔️  Status: Finalizado ✔️
+	✔️  Status: Finalizado  ✔️
 </h4>
 
 ## :pencil: Sobre o projeto
