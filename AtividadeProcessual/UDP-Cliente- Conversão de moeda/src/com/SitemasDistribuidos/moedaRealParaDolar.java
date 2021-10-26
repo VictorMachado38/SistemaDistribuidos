@@ -4,17 +4,17 @@ import java.io.Serializable;
 
 public class moedaRealParaDolar implements Serializable {
 
-    private String nome;
-    private double valorDeReias;agor
+    private String descricao;
+    private double valorDeReias;
     private double valorAtualDoDolar;
     private double valorCONVERTIDO;
 
-    public String getNome() {
-        return nome;
+    public String getDescricao() {
+        return descricao;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
     }
 
     public double getValorDeReias() {
