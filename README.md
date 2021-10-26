@@ -13,12 +13,14 @@
 </p>
 
 <h4 align="center"> 
-	🚧  Status: Em Construção... 🚧
+	✔️  Status: Finalizado ✔️
 </h4>
 
 ## :pencil: Sobre o projeto
 É um projeto da matéria Sistemas Distribuídos.
 Fazer um cliente // servidor, quando é feito um  " socketCliente.send(pacote); " o Servidor revebe.
+A pasta chamada "Modelo" foi como o professor fez em sala de aula.
+A pasta chamada "AtividadeProcessual" foi eu fazendo a atividade, com a mesma arquitetura do modelo.
 	 
 ## 🚀 Como executar o projeto
 
@@ -30,7 +32,8 @@ Fazer um cliente // servidor, quando é feito um  " socketCliente.send(pacote); 
 
 # Clone este repositório
 $ git clone https://github.com/VictorMachado38/SistemaDistribuidos
-$ Em seguida rode execute a classe main dos tanto no servido e no cliente.
+$ Em seguida rode execute a classe main dos tanto no servido e no cliente, tanto para UDP ou TCP.
+
 
 ```
 
