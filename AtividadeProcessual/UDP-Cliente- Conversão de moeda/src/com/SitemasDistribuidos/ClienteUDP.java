@@ -31,6 +31,7 @@ public class ClienteUDP {
 
 
             //Rescevendo a respota
+            //Rescevendo a respota
 
 
                 byte[] dadosRespota = new byte[256];
@@ -50,6 +51,7 @@ public class ClienteUDP {
         catch (Exception e){
             System.out.println("Mensagem de erro, ao enviador dados: " +  e.getMessage());
             return null;
+            //return null;   //return null;   //return null;   //return null;   //return null;
         }
     }
 
