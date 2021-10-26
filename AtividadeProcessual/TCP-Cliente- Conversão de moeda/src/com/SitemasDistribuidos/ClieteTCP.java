@@ -4,9 +4,9 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
 
-public class ClienteTCP {
+public class ClieteTCP {
 
-    public Pessoa EnvidarDadosTCP(Pessoa pessoa){
+    public moedaRealParaDolar EnvidarDadosTCP(moedaRealParaDolar moedaRealParaDolar){
 
         ObjectInputStream entrada;
         ObjectOutputStream saida;
@@ -20,10 +20,10 @@ public class ClienteTCP {
             entrada = new ObjectInputStream(conexao.getInputStream());
 
             //Enviando pessoa para calcular IMC
-            saida.writeObject(pessoa);
+            saida.writeObject(moedaRealParaDolar);
 
             //Recebendo a respota do servior
-            pessoa = (Pessoa) entrada.readObject();
+            moedaRealParaDolar = (moedaRealParaDolar) entrada.readObject();
             entrada.close();
             saida.close();
             conexao.close();
@@ -31,8 +31,7 @@ public class ClienteTCP {
 
         }catch (Exception e) {
         }
-        return pessoa;
+        return moedaRealParaDolar;
     }
-
 
 }

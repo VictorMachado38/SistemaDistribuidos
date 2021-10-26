@@ -15,6 +15,7 @@ public class ServidorTCP {
 
     public static void iniciar(int porta){
 
+
         ObjectInputStream entrada;
         ObjectOutputStream  saida;
         try{
@@ -31,21 +32,25 @@ public class ServidorTCP {
 
 
                entrada   = new ObjectInputStream(conexao.getInputStream());
+               saida = new ObjectOutputStream(conexao.getOutputStream());
                Pessoa pessoa = (Pessoa) entrada.readObject();
                pessoa.setIMC(calculaIMC(pessoa));
 
-                saida = new ObjectOutputStream(conexao.getOutputStream());
+
 
                while (!pessoa.isFim()){
                    try{
                        saida.writeObject(pessoa);
-
+                     //  saida.writeInt(1);
 
                    }catch (Exception e){
-
                    }
-
+                   System.out.println("Conexão encerrada pedo cliente");
+                   saida.close();
+                   entrada.close();
+                   conexao.close();
                }
+
             }
 
         }

@@ -8,12 +8,12 @@ public class Main {
         Pessoa pessoa = new Pessoa();
 
         pessoa.setNome("VITAO");
-        pessoa.setAltura(1);
+        pessoa.setAltura(1.77);
         pessoa.setPeso(95);
         pessoa.setFim(false);
 
 
-        clienteTCP.EnvidarDadosTCP(pessoa);
+        pessoa  = clienteTCP.EnvidarDadosTCP(pessoa);
 
         System.out.println("Nome da pessoa: "+ pessoa.getNome());
         System.out.println("Altura da pessoa: "+ pessoa.getAltura());
