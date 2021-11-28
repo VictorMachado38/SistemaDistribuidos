@@ -17,10 +17,7 @@ public class Servidor extends Thread {
     private InputStreamReader inr;
     private BufferedReader bfr;
 
-    /**
-     * Método construtor
-     * @param com do tipo Socket
-     */
+
     public Servidor(Socket con){
         this.con = con;
         try {
@@ -32,9 +29,7 @@ public class Servidor extends Thread {
         }
     }
 
-    /**
-     * Método run
-     */
+
     public void run(){
 
         try{
@@ -59,12 +54,7 @@ public class Servidor extends Thread {
         }
     }
 
-    /***
-     * Método usado para enviar mensagem para todos os clients
-     * @param bwSaida do tipo BufferedWriter
-     * @param msg do tipo String
-     * @throws IOException
-     */
+
     public void sendToAll(BufferedWriter bwSaida, String msg) throws  IOException
     {
         BufferedWriter bwS;
@@ -78,10 +68,7 @@ public class Servidor extends Thread {
         }
     }
 
-    /***
-     * Método main
-     * @param args
-     */
+
     public static void main(String []args) {
 
         try{
